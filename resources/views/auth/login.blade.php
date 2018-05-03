@@ -1,19 +1,21 @@
-@extends('template.layoutsdefault')
+@extends('layouts.app')
 
-@section('titulo')
-Nome do usuario
-@stop
+@section('title')
+  Login
+@endsection
 
-@section('conteudo')
+@section('content')
 <br>
 <div class="container">
+  <br>
+  <br>
   <div class="row justify-content-center">
 
     <div class="col-md-5">
       <div class="card text-center">
         <div class="card-header">
           <img class="mb-3" src="{{asset('img/logo.png')}}" alt="" width="72" height="72">
-          <h4 style="color:#088A85"><p> Seja Bem vindo </p><h5 style="color:#DF3A01">PetSyst</h5></h4>
+          <h3 style="color:#088A85"><p>Bem-vindo! </p><h5 style="color:#DF3A01">PetSys</h5></h3>
         </div>
         <div class="card-body">
           <!--Inicio do form do login-->
