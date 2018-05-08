@@ -1,0 +1,9 @@
+@extends('layouts.app')
+@section('title')
+    Testes
+@endsection
+@section('content')
+    <div>
+        <h1>Testes.com</h1>
+    </div>
+@endsection
